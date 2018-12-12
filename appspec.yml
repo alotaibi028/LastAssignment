@@ -3,11 +3,11 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-    - source: /contact.html
+  - source: /contact.html
     destination: /var/www/html/
-    - source: /about.html
+  - source: /about.html
     destination: /var/www/html/
-    - source: /skil.html
+  - source: /skil.html
     destination: /var/www/html/
 hooks:
   BeforeInstall:
